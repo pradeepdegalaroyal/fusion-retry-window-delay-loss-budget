@@ -1,0 +1,119 @@
+{
+  "clock_ablation": {
+    "ps=0.5_lam=0.1": {
+      "c=0.0": {
+        "window": 30,
+        "budget_db": 3.691
+      },
+      "c=0.5": {
+        "window": 23,
+        "budget_db": 2.31
+      },
+      "c=1.0": {
+        "window": 14,
+        "budget_db": 1.463
+      },
+      "c=1_budget_at_R30": 0.791
+    },
+    "ps=0.75_lam=0.1": {
+      "c=0.0": {
+        "window": 30,
+        "budget_db": 4.571
+      },
+      "c=0.5": {
+        "window": 23,
+        "budget_db": 3.19
+      },
+      "c=1.0": {
+        "window": 14,
+        "budget_db": 2.343
+      },
+      "c=1_budget_at_R30": 1.671
+    },
+    "ps=0.5_lam=0.3": {
+      "c=0.0": {
+        "window": 30,
+        "budget_db": 2.055
+      },
+      "c=0.5": {
+        "window": 7,
+        "budget_db": 0.287
+      },
+      "c=1.0": {
+        "window": 0,
+        "budget_db": null
+      },
+      "c=1_budget_at_R30": null
+    },
+    "ps=0.75_lam=0.3": {
+      "c=0.0": {
+        "window": 30,
+        "budget_db": 2.935
+      },
+      "c=0.5": {
+        "window": 7,
+        "budget_db": 1.167
+      },
+      "c=1.0": {
+        "window": 4,
+        "budget_db": 0.51
+      },
+      "c=1_budget_at_R30": null
+    }
+  },
+  "diminishing_returns": {
+    "ps=0.5_lam=0.1": {
+      "best": {
+        "window": 14,
+        "budget_db": 1.463
+      },
+      "window_reaching_90pct_of_best": 10,
+      "budget_at_that_window": 1.36,
+      "budget_at_R4": 0.496,
+      "budget_at_R8": 1.209
+    },
+    "ps=0.75_lam=0.1": {
+      "best": {
+        "window": 14,
+        "budget_db": 2.343
+      },
+      "window_reaching_90pct_of_best": 9,
+      "budget_at_that_window": 2.176,
+      "budget_at_R4": 1.377,
+      "budget_at_R8": 2.09
+    }
+  },
+  "threshold_target": {
+    "ps=0.5_lam=0.1": {
+      "window": 14,
+      "budget_db": 1.71
+    },
+    "ps=0.75_lam=0.1": {
+      "window": 14,
+      "budget_db": 2.59
+    },
+    "ps=0.5_lam=0.3": {
+      "window": 0,
+      "budget_db": null
+    },
+    "ps=0.75_lam=0.3": {
+      "window": 4,
+      "budget_db": 0.725
+    }
+  },
+  "minimum_window": {
+    "ps=0.5_lam=0.1": {
+      "window": 3,
+      "budget_db": 0.151
+    },
+    "ps=0.75_lam=0.1": {
+      "window": 2,
+      "budget_db": 0.552
+    }
+  },
+  "phase_map": {
+    "fraction_unreachable": 0.086,
+    "max_budget_db": 5.923,
+    "cells": 140
+  }
+}

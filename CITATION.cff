@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "How Many Retries Should a Photonic Fusion Node Get? Repeat-until-success Windows against Delay-line Loss"
+type: software
+authors:
+  - family-names: Degala
+    given-names: Chenchupradeep
+version: 0.1.0
+date-released: 2026-10-30
+license: MIT
+repository-code: "https://github.com/pradeepdegalaroyal/fusion-retry-window-delay-loss-budget"
+keywords:
+  - photonic quantum computing
+  - fusion-based quantum computation
+  - photon loss
+  - erasure threshold
+  - repeat-until-success

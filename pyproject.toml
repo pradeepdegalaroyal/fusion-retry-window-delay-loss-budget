@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fusionretry"
+version = "0.1.0"
+description = "Repeat-until-success fusion windows versus delay-line loss in a photonic fusion network"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Degala Chenchupradeep" }]
+dependencies = ["numpy", "scipy", "pandas", "matplotlib", "networkx", "numba"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
